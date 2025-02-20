@@ -56,8 +56,8 @@ int main(){
     printf("Populacao: %lld habitantes\n", populacao);
     printf("Area: %lld km²\n", area);
     printf("Densidade Populacional: %.2f pessoas/km²\n", densidade);
-    printf("PIB: %.0f reais\n" ,pib);
-    printf("PIB Per Capita: %.2f reais\n" ,pibper);
+    printf("PIB: %.0f Bilhões\n" ,pib);
+    printf("PIB Per Capita: %.2f Bilhões\n" ,pibper);
     printf("Ponto Turistico: %d\n", pontosturisticos);
     //Calculo do super poder
     superpoder1 = (double)area + populacao + densidade + pib + pontosturisticos + pibper;
@@ -114,8 +114,8 @@ int main(){
     printf("Populacao: %lld habitantes\n", populacao2);
     printf("Area: %lld km²\n", area2);
     printf("Densidade Populacional: %.2f pessoas/km²\n", densidade2);
-    printf("PIB: %.0f reais\n" ,pib2);
-    printf("PIB Per Capita: %.2f reais\n" ,pibper2);
+    printf("PIB: %.0f Bilhões\n" ,pib2);
+    printf("PIB Per Capita: %.2f Bilhões\n" ,pibper2);
     printf("Ponto Turistico: %d\n", pontosturisticos2);
     //Calculo do super poder
     superpoder2 = (double)area2 + populacao2 + densidade2 + pib2 + pontosturisticos2 + pibper2;
@@ -137,7 +137,7 @@ int main(){
     
     getchar();
     printf("\nPressione N para fechar o jogo...\n");
-    scanf("%c", "N");
+    scanf(" %c", "N");
     getchar();
 
     return  0;
