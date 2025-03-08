@@ -1,2 +1,2 @@
 # JogoSuperTrunfo
-JogoSuperTrunfo-Adicionamento, Soma e Comparação de Cartas
+JogoSuperTrunfo-Adicionamento de cartas, Soma e Comparação das Cartas.
